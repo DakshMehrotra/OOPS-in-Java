@@ -1,6 +1,4 @@
 import javax.swing.*;
-import java.awt.event.*;
-import java.util.ArrayList;
 
 class TodoList {
     public static void main(String[] args) {
@@ -38,4 +36,3 @@ class TodoList {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 }
-
