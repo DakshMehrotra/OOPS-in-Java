@@ -25,7 +25,7 @@ class LoginForm {
             String user = userField.getText();
             String pass = new String(passField.getPassword());
             if (user.equals("admin") && pass.equals("password")) {
-                JOptionPane.showMessageDialog(frame, "sahi hai bhai, and sry!");
+                JOptionPane.showMessageDialog(frame, "Login successful!");
             } else {
                 JOptionPane.showMessageDialog(frame, "Invalid credentials!");
             }
