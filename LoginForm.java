@@ -1,5 +1,4 @@
 import javax.swing.*;
-import java.awt.event.*;
 
 class LoginForm {
     public static void main(String[] args) {
@@ -26,7 +25,7 @@ class LoginForm {
             String user = userField.getText();
             String pass = new String(passField.getPassword());
             if (user.equals("admin") && pass.equals("password")) {
-                JOptionPane.showMessageDialog(frame, "Login successful!");
+                JOptionPane.showMessageDialog(frame, "sahi hai bhai, and sry!");
             } else {
                 JOptionPane.showMessageDialog(frame, "Invalid credentials!");
             }
@@ -38,4 +37,3 @@ class LoginForm {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 }
-
